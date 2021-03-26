@@ -15,7 +15,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="small mb-1" for="inputFirstName">Product Code</label>
-                                        <input class="form-control py-4" name="code" type="text" placeholder="" />
+                                        <input class="form-control py-4" name="code" type="text" placeholder="GN_<?php echo(rand(1,1000));?>" />
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -34,7 +34,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="small mb-1" for="inputLastName">Stock</label>
-                                        <input class="form-control py-4" name="stock" type="text" placeholder="" />
+                                        <input class="form-control py-4" name="stock" type="number" placeholder="" />
                                     </div>
                                 </div>
                                 
